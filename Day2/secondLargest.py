@@ -12,5 +12,5 @@ def findSecondLargest(a):
 
     return second_largest
 
-a = [12,45,23,6,4,8,55,43,46,86,87,76]
+a = [12,45,23,6,4,8,55,43,46,86,87,677,567,76]
 print(findSecondLargest(a))
