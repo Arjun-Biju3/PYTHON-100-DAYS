@@ -3,7 +3,7 @@ def merge_sort(arr):
         return arr
     mid = len(arr)//2
     left_half = merge_sort(arr[:mid]) 
-    right_half = merge_sort(arr[mid:])   
+    right_half = merge_sort(arr[mid:]) 
     return merge(left_half,right_half)
 
 def merge(left,right):
@@ -16,7 +16,7 @@ def merge(left,right):
         else:
             result.append(right[j])
             j += 1
-    result.extend(left[i:])
+    result.extend(left[i:]) 
     result.extend(right[j:])
     return result
 

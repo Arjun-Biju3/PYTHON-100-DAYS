@@ -15,4 +15,4 @@ def fibonacci(num):
         first_number=second_number
         second_number=third_number
 
-fibonacci(2)
+fibonacci(5)
