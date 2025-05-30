@@ -3,8 +3,10 @@ def reverseOfText(text):
     list_text = []
     for i in text:
         list_text.append(i)
-    for j in reversed(list_text):
-        reversed_text += j
+    # for j in reversed(list_text):
+    #     reversed_text += j
+    k=reversed(list_text)
+    reversed_text="".join(k)
     return reversed_text
 
 

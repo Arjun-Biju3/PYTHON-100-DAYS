@@ -4,5 +4,5 @@ def find_missing(numbers):
         if numbers[i-1] != i:
             return i
     return "No Missing number found"   
-missing = find_missing([1,2,3,4,5,6,7])
+missing = find_missing([1,2,4,5,6,7])
 print(missing)
